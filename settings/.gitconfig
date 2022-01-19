@@ -1,0 +1,15 @@
+[user]
+	name = Daan Wissing
+	email = daan.wissing@gmail.nl
+[core]
+	editor = code --wait
+[diff]
+	tool = vscode
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+  tool = vscode
+[mergetool "vscode"]
+  cmd = code --wait $MERGED
+[init]
+  defaultBranch = main
